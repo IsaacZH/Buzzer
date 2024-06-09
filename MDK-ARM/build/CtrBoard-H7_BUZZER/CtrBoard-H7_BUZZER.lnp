@@ -1,4 +1,4 @@
---cpu Cortex-M7.fp.dp --scatter "d:/Rp_code/dm-mc02/My_Buzzer/MDK-ARM/build/CtrBoard-H7_BUZZER/CtrBoard-H7_BUZZER.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--cpu Cortex-M7.fp.dp --scatter "d:/2024_ZJH/Buzzer/MDK-ARM/build/CtrBoard-H7_BUZZER/CtrBoard-H7_BUZZER.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
 --list .\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.map
 .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o
 .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\gpio.o

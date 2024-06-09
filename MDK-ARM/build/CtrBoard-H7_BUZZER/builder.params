@@ -7,7 +7,7 @@
     "buildMode": "fast|multhread",
     "showRepathOnLog": true,
     "threadNum": 8,
-    "rootDir": "d:\\Rp_code\\dm-mc02\\My_Buzzer\\MDK-ARM",
+    "rootDir": "d:\\2024_ZJH\\Buzzer\\MDK-ARM",
     "dumpPath": "build\\CtrBoard-H7_BUZZER",
     "outDir": "build\\CtrBoard-H7_BUZZER",
     "ram": 20480,
@@ -91,20 +91,20 @@
             "ro-base": "",
             "rw-base": "",
             "link-scatter": [
-                "\"d:/Rp_code/dm-mc02/My_Buzzer/MDK-ARM/build/CtrBoard-H7_BUZZER/CtrBoard-H7_BUZZER.sct\""
+                "\"d:/2024_ZJH/Buzzer/MDK-ARM/build/CtrBoard-H7_BUZZER/CtrBoard-H7_BUZZER.sct\""
             ]
         }
     },
     "env": {
-        "workspaceFolder": "d:\\Rp_code\\dm-mc02\\My_Buzzer\\MDK-ARM",
+        "workspaceFolder": "d:\\2024_ZJH\\Buzzer\\MDK-ARM",
         "workspaceFolderBasename": "MDK-ARM",
-        "OutDir": "d:\\Rp_code\\dm-mc02\\My_Buzzer\\MDK-ARM\\build\\CtrBoard-H7_BUZZER",
+        "OutDir": "d:\\2024_ZJH\\Buzzer\\MDK-ARM\\build\\CtrBoard-H7_BUZZER",
         "OutDirRoot": "build",
         "OutDirBase": "build\\CtrBoard-H7_BUZZER",
         "ProjectName": "CtrBoard-H7_BUZZER",
         "ConfigName": "CtrBoard-H7_BUZZER",
-        "ProjectRoot": "d:\\Rp_code\\dm-mc02\\My_Buzzer\\MDK-ARM",
-        "ExecutableName": "d:\\Rp_code\\dm-mc02\\My_Buzzer\\MDK-ARM\\build\\CtrBoard-H7_BUZZER\\CtrBoard-H7_BUZZER",
+        "ProjectRoot": "d:\\2024_ZJH\\Buzzer\\MDK-ARM",
+        "ExecutableName": "d:\\2024_ZJH\\Buzzer\\MDK-ARM\\build\\CtrBoard-H7_BUZZER\\CtrBoard-H7_BUZZER",
         "SYS_Platform": "win32",
         "SYS_DirSep": "\\",
         "SYS_DirSeparator": "\\",
@@ -120,6 +120,6 @@
         "global": "c6bff67cf023b9c443bedb8492041ca4",
         "c/cpp-compiler": "ff06636fd802ab4ef81966ffc5a94f15",
         "asm-compiler": "99914b932bd37a50b983c5e7c90ae93b",
-        "linker": "98d1f72199ea454dc851482e4a55d835"
+        "linker": "248e74cb8eccf830493ffd8b4fd5689a"
     }
 }

@@ -1,4 +1,4 @@
-arm-none-eabi-objcopy --update-section ER_IROM1="d:\Rp_code\dm-mc02\My_Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.bin" "d:\Rp_code\dm-mc02\My_Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.axf" "d:\Rp_code\dm-mc02\My_Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.elf"
+arm-none-eabi-objcopy --update-section ER_IROM1="d:\2024_ZJH\Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.bin" "d:\2024_ZJH\Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.axf" "d:\2024_ZJH\Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.elf"
 
-arm-none-eabi-objcopy: d:\Rp_code\dm-mc02\My_Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.elf: warning: allocated section `RW_IRAM1' not in segment
+arm-none-eabi-objcopy: d:\2024_ZJH\Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.elf: warning: allocated section `RW_IRAM1' not in segment
 

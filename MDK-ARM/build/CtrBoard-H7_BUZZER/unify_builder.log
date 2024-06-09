@@ -298,3 +298,153 @@ command:
 [2024-06-09 21:38:19]	[done]
 	build successfully !
 
+[2024-06-09 23:12:34]	compilation failed at : "d:\2024_ZJH\Buzzer\Core\Src\buzzer.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.d .\..\Core\Src\buzzer.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\buzzer.c", line 666: Error:  #20: identifier "uint_8" is undefined
+    uint_8 i=0;
+    ^
+".\..\Core\Src\buzzer.c", line 671: Error:  #65: expected a ";"
+  		i++;
+  		^
+".\..\Core\Src\buzzer.c", line 672: Warning:  #223-D: function "buzzerQuiet" declared implicitly
+  		buzzerQuiet();
+  		^
+".\..\Core\Src\buzzer.c", line 673: Warning:  #223-D: function "delay_ms" declared implicitly
+  		delay_ms(10);
+  		^
+.\..\Core\Src\buzzer.c: 2 warnings, 2 errors
+
+[2024-06-09 23:13:36]	compilation failed at : "d:\2024_ZJH\Buzzer\Core\Src\buzzer.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.d .\..\Core\Src\buzzer.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\buzzer.c", line 666: Error:  #20: identifier "uint_8" is undefined
+    uint_8 i=0;
+    ^
+".\..\Core\Src\buzzer.c", line 671: Error:  #65: expected a ";"
+  		i++;
+  		^
+.\..\Core\Src\buzzer.c: 0 warnings, 2 errors
+
+[2024-06-09 23:13:53]	compilation failed at : "d:\2024_ZJH\Buzzer\Core\Src\buzzer.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.d .\..\Core\Src\buzzer.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\buzzer.c", line 671: Error:  #65: expected a ";"
+  		i++;
+  		^
+.\..\Core\Src\buzzer.c: 0 warnings, 1 error
+
+[2024-06-09 23:14:09]	[done]
+	build successfully !
+
+[2024-06-09 23:14:45]	[done]
+	build successfully !
+
+[2024-06-09 23:16:44]	[done]
+	build successfully !
+
+[2024-06-09 23:17:12]	[done]
+	build successfully !
+
+[2024-06-09 23:18:22]	[done]
+	build successfully !
+
+[2024-06-09 23:18:57]	[done]
+	build successfully !
+
+[2024-06-09 23:20:34]	[done]
+	build successfully !
+
+[2024-06-09 23:21:03]	[done]
+	build successfully !
+
+[2024-06-09 23:34:53]	compilation failed at : "d:\2024_ZJH\Buzzer\Core\Src\buzzer.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.d .\..\Core\Src\buzzer.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\buzzer.c", line 58: Error:  #20: identifier "t" is undefined
+      {note_D, 2}, {note_E, 2}, {note_D, 2}, {note_E, 2}, {note_5B, 4}, {note_5C, 4}, {note_5D, 10}, {0, 4}, {note_E, 2}, {0, t}, {note_E, 2},
+                                                                                                                              ^
+".\..\Core\Src\buzzer.c", line 98: Error:  #65: expected a ";"
+  void Timer_Set(TIM_HandleTypeDef* htim, uint32_t channel, uint32_t frequency, float dutyCycle);
+  ^
+".\..\Core\Src\buzzer.c", line 110: Warning:  #223-D: function "Timer_Set" declared implicitly
+  	Timer_Set(&htim12, TIM_CHANNEL_2, note, db_value);
+  	^
+".\..\Core\Src\buzzer.c", line 116: Warning:  #159-D: declaration is incompatible with previous "Timer_Set"  (declared at line 110)
+  void Timer_Set(TIM_HandleTypeDef* htim, uint32_t channel, uint32_t frequency, float dutyCycle)
+       ^
+.\..\Core\Src\buzzer.c: 2 warnings, 2 errors
+
+[2024-06-09 23:35:08]	compilation failed at : "d:\2024_ZJH\Buzzer\Core\Src\buzzer.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.d .\..\Core\Src\buzzer.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\buzzer.c", line 58: Error:  #20: identifier "t" is undefined
+      {note_D, 2}, {note_E, 2}, {note_D, 2}, {note_E, 2}, {note_5B, 4}, {note_5C, 4}, {note_5D, 10}, {0, 4}, {note_E, 2}, {0, t}, {note_E, 2},
+                                                                                                                              ^
+.\..\Core\Src\buzzer.c: 0 warnings, 1 error
+
+[2024-06-09 23:36:00]	compilation failed at : "d:\2024_ZJH\Buzzer\Core\Src\buzzer.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.d .\..\Core\Src\buzzer.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\buzzer.c", line 59: Error:  #28: expression must have a constant value
+      {note_D, 2}, {note_E, 2}, {note_D, 2}, {note_E, 2}, {note_5B, 4}, {note_5C, 4}, {note_5D, 10}, {0, 4}, {note_E, 2}, {0, t}, {note_E, 2},
+                                                                                                                              ^
+".\..\Core\Src\buzzer.c", line 60: Error:  #28: expression must have a constant value
+      {note_D, 1}, {note_E, 3}, {note_D, 2}, {note_E, 2}, {note_G, 2}, {0, 2}, {note_E, 2}, {0, t}, {note_E, 2}, {note_D, 1}, {note_E, 3},
+                                                                                                ^
+".\..\Core\Src\buzzer.c", line 61: Error:  #28: expression must have a constant value
+      {note_D, 2}, {note_E, 2}, {note_G, 4}, {note_C, 6}, {0, 2}, {note_E, 2}, {0, t}, {note_E, 2}, {note_D, 1}, {note_E, 3}, {note_D, 2},
+                                                                                   ^
+".\..\Core\Src\buzzer.c", line 62: Error:  #28: expression must have a constant value
+      {note_C, 2}, {note_D, 2}, {0, 2}, {note_E, 2}, {0, t}, {note_E, 2}, {note_D, 1}, {note_E, 3}, {note_D, 2}, {note_E, 2}, {note_G, 2},
+                                                         ^
+".\..\Core\Src\buzzer.c", line 63: Error:  #28: expression must have a constant value
+      {0, 2}, {note_E, 2}, {0, t}, {note_E, 2}, {note_D, 1}, {note_E, 3}, {note_D, 2}, {note_E, 2}, {note_5C, 4}, {note_C, 6}, {0, 2},
+                               ^
+".\..\Core\Src\buzzer.c", line 64: Error:  #28: expression must have a constant value
+      {note_E, 2}, {0, t}, {note_E, 2}, {note_D, 1}, {note_E, 3}, {note_D, 2}, {note_B, 2}, {note_A, 1}, {note_3G, 5}, {0, 1}, {note_3G, 1},
+                       ^
+".\..\Core\Src\buzzer.c", line 65: Error:  #28: expression must have a constant value
+      {0, t}, {note_3G, 1}, {0, t}, {note_3G, 1}, {note_G, 4}, {note_E, 3}, {note_D, 1}, {note_C, 2}, {0, t}, {note_C, 4}, {0, 1}, {note_C, 2},
+          ^
+".\..\Core\Src\buzzer.c", line 65: Error:  #28: expression must have a constant value
+      {0, t}, {note_3G, 1}, {0, t}, {note_3G, 1}, {note_G, 4}, {note_E, 3}, {note_D, 1}, {note_C, 2}, {0, t}, {note_C, 4}, {0, 1}, {note_C, 2},
+                                ^
+".\..\Core\Src\buzzer.c", line 65: Error:  #28: expression must have a constant value
+      {0, t}, {note_3G, 1}, {0, t}, {note_3G, 1}, {note_G, 4}, {note_E, 3}, {note_D, 1}, {note_C, 2}, {0, t}, {note_C, 4}, {0, 1}, {note_C, 2},
+                                                                                                          ^
+".\..\Core\Src\buzzer.c", line 70: Error:  #28: expression must have a constant value
+      {note_5C, 6}, {note_C, 2}, {note_D, 2}, {note_E, 2}, {note_5B, 4}, {note_5A, 6}, {0, t}, {note_5A, 2}, {note_G, 1}, {note_5A, 3},
+                                                                                           ^
+".\..\Core\Src\buzzer.c", line 77: Error:  #28: expression must have a constant value
+      {note_C, 2}, {note_D, 2}, {note_E, 2}, {note_5B, 4}, {note_5A, 6}, {0, t}, {note_5A, 2}, {note_G, 1}, {note_5A, 3}, {note_G, 1}, {0, 0.1},
+                                                                             ^
+".\..\Core\Src\buzzer.c", line 86: Error:  #28: expression must have a constant value
+      {note_D, 2}, {note_E, 2}, {note_5B, 4}, {note_5A, 6}, {0, t}, {note_5A, 2}, {note_G, 1}, {note_5A, 3}, {note_G, 1}, {0, 0.1}, {note_G, 3},
+                                                                ^
+.\..\Core\Src\buzzer.c: 0 warnings, 12 errors
+
+[2024-06-09 23:36:49]	[done]
+	build successfully !
+
+[2024-06-09 23:37:37]	[done]
+	build successfully !
+
+[2024-06-09 23:38:16]	[done]
+	build successfully !
+
+[2024-06-09 23:45:56]	[done]
+	build successfully !
+

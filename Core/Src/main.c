@@ -97,12 +97,11 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	gala_you();
+	// gala_you();
+  // Lan_Music_Play();
+  Gala_Music_Play();
   while (1)
-  {
-		// HAL_Delay(2000);
-		// HAL_Delay(8000);
-    
+  {    
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
