@@ -1,0 +1,6 @@
+r
+halt
+loadfile "d:\Rp_code\dm-mc02\My_Buzzer\MDK-ARM\build\CtrBoard-H7_BUZZER\CtrBoard-H7_BUZZER.hex"
+r
+go
+exit

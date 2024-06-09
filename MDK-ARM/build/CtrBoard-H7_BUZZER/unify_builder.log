@@ -1,0 +1,300 @@
+[2024-06-08 21:48:07]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_hal_rcc.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_hal_pwr_ex.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_hal.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_hal_gpio.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_hal_cortex.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32h7xx.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching buzzer.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_hal_pwr.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching main.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching tim.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching gpio.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching rt_memclr_w.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching sys_stackheap_outer.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_it.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32h723xx.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_hal_msp.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching fpinit.o(x$fpl$fpinit).
+Error: L6406E: No space in execution regions with .ANY selector matching exit.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching system_stm32h7xx.o(.rodata.D1CorePrescTable).
+Error: L6406E: No space in execution regions with .ANY selector matching sys_exit.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching stm32h7xx_hal_dma.o(.rodata.DMA_CalcBaseAndBitshift.flagBitshiftOffset).
+Error: L6406E: No space in execution regions with .ANY selector matching __rtentry2.o(.ARM.Collect$$rtentry$$0000000D).
+Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching heapauxi.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching rtexit2.o(.ARM.Collect$$rtexit$$00000004).
+Error: L6406E: No space in execution regions with .ANY selector matching libinit2.o(.ARM.Collect$$libinit$$00000001).
+Error: L6406E: No space in execution regions with .ANY selector matching libshutdown.o(.ARM.Collect$$libshutdown$$00000000).
+Error: L6406E: No space in execution regions with .ANY selector matching use_no_semi.o(.text).
+Error: L6406E: No space in execution regions with .ANY selector matching indicate_semi.o(.text).
+Error: L6407E: Sections of aggregate size 0x49b0 bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 30 error messages.
+
+
+[2024-06-08 21:48:38]	[done]
+	build successfully !
+
+[2024-06-08 21:49:52]	[done]
+	build successfully !
+
+[2024-06-08 21:56:35]	compilation failed at : "d:\Rp_code\dm-mc02\My_Buzzer\Core\Src\buzzer.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.d .\..\Core\Src\buzzer.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\buzzer.c", line 26: Error:  #136: struct "<unnamed>"  has no field "gpioOut"
+  	if (buzzer->fnx.gpioOut != NULL)
+  	                ^
+".\..\Core\Src\buzzer.c", line 27: Error:  #136: struct "<unnamed>"  has no field "gpioOut"
+  		buzzer->fnx.gpioOut(_LOW);
+  		            ^
+".\..\Core\Src\buzzer.c", line 36: Error:  #136: struct "<unnamed>"  has no field "gpioOut"
+  	if (buzzer->fnx.gpioOut != NULL)
+  	                ^
+".\..\Core\Src\buzzer.c", line 37: Error:  #136: struct "<unnamed>"  has no field "gpioOut"
+  		buzzer->fnx.gpioOut(_HIGH);
+  		            ^
+".\..\Core\Src\buzzer.c", line 137: Error:  #127: expected a statement
+      	else if (buzzer->fnx.pwmOut){
+      	^
+".\..\Core\Src\buzzer.c", line 143: Warning:  #12-D: parsing restarts here after previous syntax error
+      }
+      ^
+.\..\Core\Src\buzzer.c: 1 warning, 5 errors
+
+[2024-06-08 22:04:35]	compilation failed at : "d:\Rp_code\dm-mc02\My_Buzzer\Core\Src\buzzer.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\buzzer.d .\..\Core\Src\buzzer.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\buzzer.c", line 82: Error:  #136: struct "<unnamed>"  has no field "type"
+  				if (buzzer->type == BUZZER_TYPE_ACTIVE){
+  				            ^
+".\..\Core\Src\buzzer.c", line 82: Error:  #20: identifier "BUZZER_TYPE_ACTIVE" is undefined
+  				if (buzzer->type == BUZZER_TYPE_ACTIVE){
+  				                    ^
+".\..\Core\Src\buzzer.c", line 84: Warning:  #223-D: function "__buzzer_stop_gpio" declared implicitly
+  						__buzzer_stop_gpio(buzzer);
+  						^
+".\..\Core\Src\buzzer.c", line 87: Warning:  #223-D: function "__buzzer_turn_on_gpio" declared implicitly
+  						__buzzer_turn_on_gpio(buzzer);
+  						^
+".\..\Core\Src\buzzer.c", line 106: Error:  #136: struct "<unnamed>"  has no field "type"
+  			if (buzzer->type == BUZZER_TYPE_ACTIVE){
+  			            ^
+".\..\Core\Src\buzzer.c", line 106: Error:  #20: identifier "BUZZER_TYPE_ACTIVE" is undefined
+  			if (buzzer->type == BUZZER_TYPE_ACTIVE){
+  			                    ^
+".\..\Core\Src\buzzer.c", line 107: Warning:  #223-D: function "__buzzer_stop_gpio" declared implicitly
+  				__buzzer_stop_gpio(buzzer);
+  				^
+.\..\Core\Src\buzzer.c: 3 warnings, 4 errors
+
+[2024-06-08 22:08:17]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol buzzer_init (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+
+
+[2024-06-08 22:09:22]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+Error: L6218E: Undefined symbol buzzer_init (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+
+
+[2024-06-08 22:09:32]	[done]
+	build successfully !
+
+[2024-06-08 22:18:46]	[done]
+	build successfully !
+
+[2024-06-08 22:29:07]	[done]
+	build successfully !
+
+[2024-06-08 22:35:54]	compilation failed at : "d:\Rp_code\dm-mc02\My_Buzzer\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Keil_v5\ARM\ARMCC\bin\armcc.exe" -c --apcs=interwork -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I.cmsis/include -IRTE/_CtrBoard-H7_BUZZER -I.eide/deps -DUSE_HAL_DRIVER -DSTM32H723xx --cpu Cortex-M7.fp.dp --li --c99 -O3 --split_sections --gnu --diag_suppress=1 --diag_suppress=1295 -g -o .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\main.o --no_depend_system_headers --depend .\build\CtrBoard-H7_BUZZER\.obj\__\Core\Src\main.d .\..\Core\Src\main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+".\..\Core\Src\main.c", line 111: Error:  #20: identifier "nextPattern" is undefined
+  	nextPattern = 1;
+  	^
+".\..\Core\Src\main.c", line 154: Error:  #20: identifier "nextPattern" is undefined
+    nextPattern = 1;
+    ^
+.\..\Core\Src\main.c: 0 warnings, 2 errors
+
+[2024-06-08 22:36:25]	[done]
+	build successfully !
+
+[2024-06-08 23:29:37]	[done]
+	build successfully !
+
+[2024-06-08 23:30:39]	[done]
+	build successfully !
+
+[2024-06-08 23:30:47]	[done]
+	build successfully !
+
+[2024-06-08 23:34:57]	[done]
+	build successfully !
+
+[2024-06-08 23:43:09]	[done]
+	build successfully !
+
+[2024-06-08 23:43:57]	[done]
+	build successfully !
+
+[2024-06-08 23:46:02]	[done]
+	build successfully !
+
+[2024-06-08 23:46:41]	[done]
+	build successfully !
+
+[2024-06-08 23:46:54]	[done]
+	build successfully !
+
+[2024-06-08 23:50:01]	[done]
+	build successfully !
+
+[2024-06-09 00:07:53]	[done]
+	build successfully !
+
+[2024-06-09 00:08:13]	[done]
+	build successfully !
+
+[2024-06-09 14:33:32]	[done]
+	build successfully !
+
+[2024-06-09 14:34:37]	[done]
+	build successfully !
+
+[2024-06-09 14:35:36]	[done]
+	build successfully !
+
+[2024-06-09 14:37:49]	[done]
+	build successfully !
+
+[2024-06-09 15:10:09]	[done]
+	build successfully !
+
+[2024-06-09 15:11:51]	[done]
+	build successfully !
+
+[2024-06-09 15:12:29]	[done]
+	build successfully !
+
+[2024-06-09 15:12:54]	[done]
+	build successfully !
+
+[2024-06-09 15:13:07]	[done]
+	build successfully !
+
+[2024-06-09 15:13:22]	[done]
+	build successfully !
+
+[2024-06-09 15:13:37]	[done]
+	build successfully !
+
+[2024-06-09 15:13:50]	[done]
+	build successfully !
+
+[2024-06-09 15:14:21]	[done]
+	build successfully !
+
+[2024-06-09 15:14:34]	[done]
+	build successfully !
+
+[2024-06-09 15:15:36]	[done]
+	build successfully !
+
+[2024-06-09 15:15:52]	[done]
+	build successfully !
+
+[2024-06-09 15:16:06]	[done]
+	build successfully !
+
+[2024-06-09 15:17:02]	[done]
+	build successfully !
+
+[2024-06-09 15:17:26]	[done]
+	build successfully !
+
+[2024-06-09 15:17:54]	[done]
+	build successfully !
+
+[2024-06-09 15:18:59]	[done]
+	build successfully !
+
+[2024-06-09 15:19:54]	[done]
+	build successfully !
+
+[2024-06-09 15:20:12]	[done]
+	build successfully !
+
+[2024-06-09 15:21:06]	[done]
+	build successfully !
+
+[2024-06-09 15:21:18]	[done]
+	build successfully !
+
+[2024-06-09 15:21:35]	[done]
+	build successfully !
+
+[2024-06-09 15:23:40]	[done]
+	build successfully !
+
+[2024-06-09 15:23:54]	[done]
+	build successfully !
+
+[2024-06-09 15:24:05]	[done]
+	build successfully !
+
+[2024-06-09 15:24:19]	[done]
+	build successfully !
+
+[2024-06-09 15:24:35]	[done]
+	build successfully !
+
+[2024-06-09 15:25:36]	[done]
+	build successfully !
+
+[2024-06-09 15:26:11]	[done]
+	build successfully !
+
+[2024-06-09 15:26:42]	[done]
+	build successfully !
+
+[2024-06-09 15:27:06]	[done]
+	build successfully !
+
+[2024-06-09 15:27:37]	[done]
+	build successfully !
+
+[2024-06-09 21:22:27]	[done]
+	build successfully !
+
+[2024-06-09 21:26:07]	[done]
+	build successfully !
+
+[2024-06-09 21:27:56]	[done]
+	build successfully !
+
+[2024-06-09 21:29:32]	[done]
+	build successfully !
+
+[2024-06-09 21:33:59]	[done]
+	build successfully !
+
+[2024-06-09 21:38:19]	[done]
+	build successfully !
+
