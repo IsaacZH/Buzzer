@@ -87,4 +87,9 @@ DebugConfig/
 *JLinkSettings.ini
 ~s*
 *.TMP 
-MDK-ARM/MY_ENGINEER.uvguix.Isaac
+
+# Keil MDK-ARM
+MDK-ARM/build/CtrBoard-H7_BUZZER/unify_builder.log
+MDK-ARM/build/CtrBoard-H7_BUZZER/CtrBoard-H7_BUZZER.htm
+*.htm
+*.log

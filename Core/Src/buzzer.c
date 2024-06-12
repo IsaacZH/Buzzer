@@ -354,7 +354,7 @@ void Gala_Music_Play(void)
 			Timer_Set(&htim12, TIM_CHANNEL_2, 1, 0);
 			break;
 		}
-		Note(test[i].mName,test[i].mTime);
+		Note(test[i].mName,test[i].mTime * 200);
 		i++;
 	}
 
@@ -370,7 +370,7 @@ void Lan_Music_Play(void)
 			Timer_Set(&htim12, TIM_CHANNEL_2, 1, 0);
 			break;
 		}
-		Note(lan_note[i].mName,lan_note[i].mTime / 200.f);
+		Note(lan_note[i].mName,lan_note[i].mTime);
 		i++;
 		Note(0,10.f/200.f);
 	}
