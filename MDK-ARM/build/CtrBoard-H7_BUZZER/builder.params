@@ -3,10 +3,10 @@
     "target": "CtrBoard-H7_BUZZER",
     "toolchain": "AC5",
     "toolchainLocation": "C:\\Keil_v5\\ARM\\ARMCC",
-    "toolchainCfgFile": "c:\\Users\\Isaac\\.vscode\\extensions\\cl.eide-3.17.1\\res\\data\\models\\win32/arm.v5.model.json",
+    "toolchainCfgFile": "c:\\Users\\18129\\.vscode\\extensions\\cl.eide-3.17.1\\res\\data\\models\\win32/arm.v5.model.json",
     "buildMode": "fast|multhread",
     "showRepathOnLog": true,
-    "threadNum": 8,
+    "threadNum": 12,
     "rootDir": "d:\\2024_ZJH\\Buzzer\\MDK-ARM",
     "dumpPath": "build\\CtrBoard-H7_BUZZER",
     "outDir": "build\\CtrBoard-H7_BUZZER",
@@ -57,7 +57,7 @@
         "startup_stm32h723xx.s"
     ],
     "sourceParams": {},
-    "sourceParamsMtime": 1717854463374.9873,
+    "sourceParamsMtime": 1718161751359.8574,
     "options": {
         "version": 4,
         "beforeBuildTasks": [],

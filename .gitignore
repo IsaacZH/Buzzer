@@ -9,6 +9,7 @@
 /bin
 /obj
 /out
+/MDK-ARM/build/CtrBoard-H7_BUZZER
 
 # eide template
 *.ept
