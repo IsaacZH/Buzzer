@@ -11,9 +11,16 @@ if audio_data.ndim > 1:
     audio_data = audio_data[:, 0]  # 假设audio_data是numpy数组，取所有行的第0列（即左声道）
 
 # 创建aubio频率检测器
+downsample = 1
 
-pitch_detector = aubio.pitch("yin", 4096, 512, sample_rate)
+win_s = 4096 // downsample # fft size
+hop_s = 512  // downsample # hop size
 
+pitch_detector = aubio.pitch("yin", win_s, hop_s, sample_rate)
+
+tolerance = 0.8 # 设置容差
+
+pitch_detector.set_tolerance(tolerance)
 # 创建一个空列表来存储频率和时长信息
 pitches = []
 durations = []
